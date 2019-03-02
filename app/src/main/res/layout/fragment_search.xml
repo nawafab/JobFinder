@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SearchFragment"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:focusable="true">
+
+
+    <Spinner
+        android:id="@+id/spProviders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_spacing"
+        />
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/svTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        />
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/svLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:searchIcon="@drawable/ic_location_on_black_24dp"
+        android:iconifiedByDefault="false"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

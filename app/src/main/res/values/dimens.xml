@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small_spacing">4dp</dimen>
+    <dimen name="normal_spacing">8dp</dimen>
+    <dimen name="large_spacing">16dp</dimen>
+
+
+    <!--layout related dimes-->
+    <dimen name="company_logo">90dp</dimen>
+
+</resources>

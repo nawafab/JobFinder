@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JobFinder</string>
+
+
+    <!--todo add google places api key-->
+    <string name="google_places_key" translatable="false"><!--add your key here--></string>
+    <string name="search">Search ..</string>
+    <string name="error_message_internet">No Internet connection</string>
+    <string name="empty_job_list">No jobs available</string>
+</resources>
