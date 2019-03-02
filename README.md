@@ -20,7 +20,9 @@ The external libraries used in the app :
 
 ### Run the app
 You need to add your own google places api key OR the one i provide via email
-to `strings.xml` key `google_places_key`
+to `strings.xml` key `google_places_key`.
+
+Try the app by installing `app-debug.apk` in the root foler of the repo
 
 ### Adding new provider
 For adding new provider to the app 
