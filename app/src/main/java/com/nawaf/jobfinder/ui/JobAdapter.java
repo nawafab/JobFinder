@@ -30,7 +30,7 @@ public class JobAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private OnRecyclerItemClickLister<String> onRecyclerItemClickLister;
 
     // load more related variables
-    private int visibleThreshold = 2;
+    private int visibleThreshold = 5;
     private int lastVisibleItem;
     private int totalItemCount;
     private int startPage = 1 ;
@@ -131,7 +131,7 @@ public class JobAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         this.jobModels.addAll(jobModels);
 
         if (lastPosition >= 0)
-            notifyItemInserted(lastPosition);
+            notifyItemInserted(lastPosition+1);
         else
             notifyItemInserted(0);
 
